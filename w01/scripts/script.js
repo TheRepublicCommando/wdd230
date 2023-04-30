@@ -1,2 +1,2 @@
 const date = new Date(document.lastModified);
-document.getElementById("lastMod") = date
+document.getElementById("lastMod").textContent = date
